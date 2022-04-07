@@ -124,6 +124,7 @@
   }
   .token__descriptionButton {
     display: none;
+    z-index: 1;
   }
   .token__descriptionForLowWidth {
     display: block;
