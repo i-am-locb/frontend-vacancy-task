@@ -1,0 +1,17 @@
+.main__filterButton {
+  padding: 0.5em;
+  border: 1px solid transparent;
+  border-radius: 1em;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  font-size: 1em;
+}
+
+.main__filterButton:hover {
+  border: 1px solid #b380fd;
+}
+.main__filterButton_active {
+  background: linear-gradient(201.66deg, #b380fd 12.94%, #6347f5 78.23%);
+  border: 1px solid #b380fd;
+}

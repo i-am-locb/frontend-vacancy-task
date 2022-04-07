@@ -1,0 +1,45 @@
+.main__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2.5em;
+}
+.main__title {
+  font-size: 2.25em;
+  font-weight: 500;
+}
+.main__filter {
+  background-color: #fff;
+  border-radius: 1.5em;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.04);
+  width: 19.375em;
+  height: 3em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .main__tokenList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .main__tokenList a {
+    width: 49.5%;
+  }
+  .main__header {
+    flex-direction: column;
+  }
+  .main__title {
+    margin-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main__tokenList a {
+    width: 100%;
+  }
+}
